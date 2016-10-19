@@ -38,6 +38,7 @@
   </properties>
 
   <modules>
+    <module>base-response</module>
     <module>kuromoji-response</module>
     <module>word2vec-response</module>
   </modules>

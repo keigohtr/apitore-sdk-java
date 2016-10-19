@@ -15,18 +15,11 @@ public class DistanceEntity implements Serializable {
   /**
    *
    */
-  private static final long serialVersionUID = -7464128958519398356L;
+  private static final long serialVersionUID = -2084717928104784484L;
 
   @ApiModelProperty(required=true, value="word")
   private String word;
   @ApiModelProperty(required=true, value="cosine distance")
-  private double distance;
-
-
-  /* Constructor */
-  public DistanceEntity(String word, double distance) {
-    this.word     = word;
-    this.distance = distance;
-  }
+  private Double distance;
 
 }

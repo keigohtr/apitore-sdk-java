@@ -9,10 +9,10 @@
     <version>0.0.4-SNAPSHOT</version>
   </parent>
 
-  <artifactId>word2vec-response</artifactId>
+  <artifactId>base-response</artifactId>
   <packaging>jar</packaging>
   <name>${project.artifactId}</name>
-  <description>Word2vec response</description>
+  <description>Base response</description>
 
   <build>
     <finalName>${project.artifactId}</finalName>
@@ -31,11 +31,6 @@
   </build>
 
   <dependencies>
-    <dependency>
-      <groupId>com.apitore.banana</groupId>
-      <artifactId>base-response</artifactId>
-      <version>${project.version}</version>
-    </dependency>
   </dependencies>
 
 </project>

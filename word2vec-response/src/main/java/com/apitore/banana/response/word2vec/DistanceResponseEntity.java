@@ -1,22 +1,25 @@
 package com.apitore.banana.response.word2vec;
 
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
+
+import com.apitore.banana.response.BaseResponseEntity;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 
 @ApiModel
 @Data
-public class DistanceResponseEntity implements Serializable {
+@EqualsAndHashCode(callSuper=false)
+public class DistanceResponseEntity extends BaseResponseEntity {
 
   /**
    *
    */
-  private static final long serialVersionUID = -1813141929047578472L;
+  private static final long serialVersionUID = 7070503881709006405L;
 
   @ApiModelProperty(required=true, value="Input word")
   private String word="";
@@ -24,17 +27,5 @@ public class DistanceResponseEntity implements Serializable {
   private String num="";
   @ApiModelProperty(required=false, value="Distances")
   private List<DistanceEntity> distances=new ArrayList<DistanceEntity>();
-  @ApiModelProperty(required=true, value="Log message")
-  private String log="";
-  @ApiModelProperty(required=true, value="Start date")
-  private String startTime="";
-  @ApiModelProperty(required=true, value="End date")
-  private String endTime="";
-  @ApiModelProperty(required=true, value="Process time [millisecond]")
-  private String processTime="";
-
-
-  /* Constructor */
-  public DistanceResponseEntity() {}
 
 }
