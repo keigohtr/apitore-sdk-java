@@ -15,7 +15,7 @@ public class DistanceEntity implements Serializable {
   /**
    *
    */
-  private static final long serialVersionUID = -2084717928104784484L;
+  private static final long serialVersionUID = -4604815114685351130L;
 
   @ApiModelProperty(required=true, value="word")
   private String word;

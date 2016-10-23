@@ -1,7 +1,6 @@
 package com.apitore.banana.response.com.atilika.kuromoji;
 
 
-import java.util.ArrayList;
 import java.util.List;
 
 import com.apitore.banana.response.BaseResponseEntity;
@@ -23,6 +22,6 @@ public class TokenResponseEntity extends BaseResponseEntity {
   private static final long serialVersionUID = -7248630788308853901L;
 
   @ApiModelProperty(required=false, value="Tokens")
-  private List<TokenEntity> tokens=new ArrayList<TokenEntity>();
+  private List<TokenEntity> tokens;
 
 }

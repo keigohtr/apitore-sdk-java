@@ -1,6 +1,5 @@
 package com.apitore.banana.response.word2vec;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import com.apitore.banana.response.BaseResponseEntity;
@@ -22,10 +21,10 @@ public class DistanceResponseEntity extends BaseResponseEntity {
   private static final long serialVersionUID = 7070503881709006405L;
 
   @ApiModelProperty(required=true, value="Input word")
-  private String word="";
+  private String input;
   @ApiModelProperty(required=true, value="Input num")
-  private String num="";
+  private String num;
   @ApiModelProperty(required=false, value="Distances")
-  private List<DistanceEntity> distances=new ArrayList<DistanceEntity>();
+  private List<DistanceEntity> distances;
 
 }

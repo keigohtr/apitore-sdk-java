@@ -7,3 +7,10 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
+/.project
+/base-response/.classpath
+/base-response/.project
+/kuromoji-response/.classpath
+/kuromoji-response/.project
+/word2vec-response/.classpath
+/word2vec-response/.project

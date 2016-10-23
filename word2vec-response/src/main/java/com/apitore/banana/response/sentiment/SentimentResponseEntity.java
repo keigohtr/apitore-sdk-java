@@ -1,6 +1,8 @@
 package com.apitore.banana.response.sentiment;
 
 
+import java.util.List;
+
 import com.apitore.banana.response.BaseResponseEntity;
 
 import io.swagger.annotations.ApiModel;
@@ -17,11 +19,12 @@ public class SentimentResponseEntity extends BaseResponseEntity {
   /**
    *
    */
-  private static final long serialVersionUID = 5871728960857397682L;
+  private static final long serialVersionUID = 2921278603713556378L;
 
-  @ApiModelProperty(required=true, value="Input text")
-  private String text="";
-  @ApiModelProperty(required=true, value="Output sentiment")
-  private String sentiment="";
-
+  @ApiModelProperty(required=true, value="Input: text")
+  private String text;
+  @ApiModelProperty(required=true, value="Output: prediction")
+  SentimentEntity predict;
+  @ApiModelProperty(required=true, value="Output: sentiments")
+  private List<SentimentEntity> sentimens;
 }

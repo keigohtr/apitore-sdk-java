@@ -20,10 +20,10 @@ public class SimilarityResponseEntity extends BaseResponseEntity {
   private static final long serialVersionUID = 3444717406990077594L;
 
   @ApiModelProperty(required=true, value="Input word1")
-  private String word1="";
+  private String word1;
   @ApiModelProperty(required=true, value="Input word2")
-  private String word2="";
+  private String word2;
   @ApiModelProperty(required=false, value="Similarity")
-  private double similarity=0;
+  private double similarity;
 
 }

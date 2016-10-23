@@ -29,8 +29,10 @@ public class BaseResponseEntity implements Serializable {
   private String processTime="";
 
   @JsonIgnore
+  @ApiModelProperty(hidden=true)
   private boolean error=false;
   @JsonIgnore
+  @ApiModelProperty(hidden=true)
   private boolean heavyUser=false;
 
 }

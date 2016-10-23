@@ -20,8 +20,8 @@ public class WordVectorResponseEntity extends BaseResponseEntity {
   private static final long serialVersionUID = 3050057956052841035L;
 
   @ApiModelProperty(required=true, value="Input word")
-  private String word="";
+  private String word;
   @ApiModelProperty(required=false, value="Vector")
-  private double[] vector=new double[0];
+  private double[] vector;
 
 }
