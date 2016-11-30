@@ -1,2 +1,6 @@
-# kuromoji-response
-Response classes for [Apitore's kuromoji Web API](https://apitore.com/store/apis/details?id=7).
+# base-response
+Base response project.
+
+## Requirement
+- JDK 1.8.0-102 upper
+- Maven 3 upper

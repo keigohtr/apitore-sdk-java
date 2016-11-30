@@ -1,2 +1,6 @@
 # apitore-response-parent
-Response classes for [Apitore's Web API](https://apitore.com/).
+Response class and sample code for [Apitore's Web API](https://apitore.com/).
+
+## Requirement
+- JDK 1.8.0-102 upper
+- Maven 3 upper
