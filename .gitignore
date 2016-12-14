@@ -15,3 +15,10 @@ buildNumber.properties
 /word2vec-response/.classpath
 /word2vec-response/.project
 /base-response/.settings
+/jsoup-response/.project
+/jsoup-response/.settings
+/jsoup-response/target
+/jsoup-response/.classpath
+/.settings
+/kuromoji-response/.settings
+/word2vec-response/.settings
