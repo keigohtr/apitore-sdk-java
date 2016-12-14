@@ -14,7 +14,7 @@ import com.apitore.banana.utils.UrlFormatter;
  */
 public class ApiCallExampleMain {
 
-  static String ENDPOINT     = "https://api.apitore.com/api/12/jsoup/url2text";
+  static String ENDPOINT     = "https://api.apitore.com/api/13/jsoup/url2text";
   static String ACCESS_TOKEN = "YOUR-ACCESS-TOKEN";
 
   public static void main(String[] args) {
