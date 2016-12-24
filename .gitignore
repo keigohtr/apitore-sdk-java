@@ -22,3 +22,7 @@ buildNumber.properties
 /.settings
 /kuromoji-response/.settings
 /word2vec-response/.settings
+/summarize-response/.project
+/summarize-response/.settings
+/summarize-response/target
+/summarize-response/.classpath

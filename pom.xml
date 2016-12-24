@@ -43,6 +43,7 @@
     <module>kuromoji-response</module>
     <module>word2vec-response</module>
     <module>jsoup-response</module>
+    <module>summarize-response</module>
   </modules>
 
   <build>

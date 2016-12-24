@@ -1,4 +1,4 @@
-package com.apitore.banana.response.com.atilika.kuromoji;
+package com.apitore.banana.response.org.jsoup.sample;
 
 
 import java.util.HashMap;
@@ -6,6 +6,7 @@ import java.util.Map;
 
 import org.springframework.web.client.RestTemplate;
 
+import com.apitore.banana.response.org.jsoup.TextResponseEntity;
 import com.apitore.banana.utils.UrlFormatter;
 
 
@@ -14,23 +15,21 @@ import com.apitore.banana.utils.UrlFormatter;
  */
 public class ApiCallExampleMain {
 
-  static String ENDPOINT     = "https://api.apitore.com/api/7/kuromoji-ipadic-neologd/tokenize";
+  static String ENDPOINT     = "https://api.apitore.com/api/13/jsoup/url2text";
   static String ACCESS_TOKEN = "YOUR-ACCESS-TOKEN";
 
   public static void main(String[] args) {
     RestTemplate restTemplate = new RestTemplate();
     Map<String, String> params = new HashMap<String, String>();
     params.put("access_token", ACCESS_TOKEN);
-    params.put("text", "吾輩は猫である。名前はまだない。");
+    params.put("url", "https://apitore.com/");
     String url = UrlFormatter.format(ENDPOINT, params);
 
-    TokenResponseEntity response =
-        restTemplate.getForObject(url, TokenResponseEntity.class, params);
+    TextResponseEntity response =
+        restTemplate.getForObject(url, TextResponseEntity.class, params);
 
     System.out.println(response.getLog());
-    System.out.println(response.getTokens().size());
-    System.out.println(response.getTokens().get(0).getSurface());
-    System.out.println(response.getTokens().get(0).getAllFeatures());
+    System.out.println(response.getText());
   }
 
 }

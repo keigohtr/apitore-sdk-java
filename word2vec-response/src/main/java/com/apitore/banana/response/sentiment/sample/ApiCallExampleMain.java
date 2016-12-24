@@ -1,4 +1,4 @@
-package com.apitore.banana.response.sentiment;
+package com.apitore.banana.response.sentiment.sample;
 
 
 import java.util.HashMap;
@@ -6,6 +6,7 @@ import java.util.Map;
 
 import org.springframework.web.client.RestTemplate;
 
+import com.apitore.banana.response.sentiment.SentimentResponseEntity;
 import com.apitore.banana.utils.UrlFormatter;
 
 
