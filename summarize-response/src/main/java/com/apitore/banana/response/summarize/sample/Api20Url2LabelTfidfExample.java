@@ -1,4 +1,4 @@
-package com.apitore.banana.response.word2vec.sample;
+package com.apitore.banana.response.summarize.sample;
 
 
 import java.util.HashMap;
@@ -6,32 +6,32 @@ import java.util.Map;
 
 import org.springframework.web.client.RestTemplate;
 
-import com.apitore.banana.response.word2vec.DistanceResponseEntity;
+import com.apitore.banana.response.summarize.LabelResponseEntity;
 import com.apitore.banana.utils.UrlFormatter;
 
 
 /**
  * @author Keigo Hattori
  */
-public class ApiCallExampleMain {
+public class Api20Url2LabelTfidfExample {
 
-  static String ENDPOINT     = "https://api.apitore.com/api/8/word2vec-neologd-jawiki/distance";
+  static String ENDPOINT     = "https://api.apitore.com/api/20/url2label-tfidf/get";
   static String ACCESS_TOKEN = "YOUR-ACCESS-TOKEN";
 
   public static void main(String[] args) {
     RestTemplate restTemplate = new RestTemplate();
     Map<String, String> params = new HashMap<String, String>();
     params.put("access_token", ACCESS_TOKEN);
-    params.put("word", "犬");
+    params.put("url", "https://apitore.com/");
     params.put("num", "5");
     String url = UrlFormatter.format(ENDPOINT, params);
 
-    DistanceResponseEntity response =
-        restTemplate.getForObject(url, DistanceResponseEntity.class, params);
+    LabelResponseEntity response =
+        restTemplate.getForObject(url, LabelResponseEntity.class, params);
 
     System.out.println(response.getLog());
-    System.out.println(response.getDistances().get(0).getWord());
-    System.out.println(response.getDistances().get(0).getDistance());
+    System.out.println(response.getLabels().get(0).getLabel());
+    System.out.println(response.getLabels().get(0).getScore());
   }
 
 }

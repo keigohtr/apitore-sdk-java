@@ -6,16 +6,16 @@ import java.util.Map;
 
 import org.springframework.web.client.RestTemplate;
 
-import com.apitore.banana.response.org.jsoup.TextResponseEntity;
+import com.apitore.banana.response.org.jsoup.LinkResponseEntity;
 import com.apitore.banana.utils.UrlFormatter;
 
 
 /**
  * @author Keigo Hattori
  */
-public class ApiCallExampleMain {
+public class Api14Url2HrefExample {
 
-  static String ENDPOINT     = "https://api.apitore.com/api/13/jsoup/url2text";
+  static String ENDPOINT     = "https://api.apitore.com/api/14/jsoup/url2href";
   static String ACCESS_TOKEN = "YOUR-ACCESS-TOKEN";
 
   public static void main(String[] args) {
@@ -25,11 +25,11 @@ public class ApiCallExampleMain {
     params.put("url", "https://apitore.com/");
     String url = UrlFormatter.format(ENDPOINT, params);
 
-    TextResponseEntity response =
-        restTemplate.getForObject(url, TextResponseEntity.class, params);
+    LinkResponseEntity response =
+        restTemplate.getForObject(url, LinkResponseEntity.class, params);
 
     System.out.println(response.getLog());
-    System.out.println(response.getText());
+    System.out.println(response.getLinks().get(0));
   }
 
 }

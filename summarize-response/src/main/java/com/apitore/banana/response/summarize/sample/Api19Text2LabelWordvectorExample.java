@@ -13,9 +13,9 @@ import com.apitore.banana.utils.UrlFormatter;
 /**
  * @author Keigo Hattori
  */
-public class ApiCallExampleMain {
+public class Api19Text2LabelWordvectorExample {
 
-  static String ENDPOINT     = "https://api.apitore.com/api/18/text2label-tfidf/get";
+  static String ENDPOINT     = "https://api.apitore.com/api/19/text2label-wordvector/get";
   static String ACCESS_TOKEN = "YOUR-ACCESS-TOKEN";
 
   public static void main(String[] args) {

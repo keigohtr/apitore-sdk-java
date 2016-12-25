@@ -1,0 +1,35 @@
+package com.apitore.banana.response.org.jsoup.sample;
+
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.web.client.RestTemplate;
+
+import com.apitore.banana.response.org.jsoup.TextResponseEntity;
+import com.apitore.banana.utils.UrlFormatter;
+
+
+/**
+ * @author Keigo Hattori
+ */
+public class Api13Url2TextExample {
+
+  static String ENDPOINT     = "https://api.apitore.com/api/13/jsoup/url2text";
+  static String ACCESS_TOKEN = "YOUR-ACCESS-TOKEN";
+
+  public static void main(String[] args) {
+    RestTemplate restTemplate = new RestTemplate();
+    Map<String, String> params = new HashMap<String, String>();
+    params.put("access_token", ACCESS_TOKEN);
+    params.put("url", "https://apitore.com/");
+    String url = UrlFormatter.format(ENDPOINT, params);
+
+    TextResponseEntity response =
+        restTemplate.getForObject(url, TextResponseEntity.class, params);
+
+    System.out.println(response.getLog());
+    System.out.println(response.getText());
+  }
+
+}

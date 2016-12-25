@@ -13,9 +13,9 @@ import com.apitore.banana.utils.UrlFormatter;
 /**
  * @author Keigo Hattori
  */
-public class ApiCallExampleMain {
+public class Api7KuromojiIpadicExample {
 
-  static String ENDPOINT     = "https://api.apitore.com/api/7/kuromoji-ipadic-neologd/tokenize";
+  static String ENDPOINT     = "https://api.apitore.com/api/7/kuromoji-ipadic/tokenize";
   static String ACCESS_TOKEN = "YOUR-ACCESS-TOKEN";
 
   public static void main(String[] args) {
