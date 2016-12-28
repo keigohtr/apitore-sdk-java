@@ -26,3 +26,7 @@ buildNumber.properties
 /summarize-response/.settings
 /summarize-response/target
 /summarize-response/.classpath
+/langdetect-response/.project
+/langdetect-response/.settings
+/langdetect-response/target
+/langdetect-response/.classpath
