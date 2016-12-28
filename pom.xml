@@ -44,6 +44,7 @@
     <module>word2vec-response</module>
     <module>jsoup-response</module>
     <module>summarize-response</module>
+    <module>langdetect-response</module>
   </modules>
 
   <build>
