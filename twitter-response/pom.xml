@@ -9,10 +9,10 @@
     <version>0.0.6-SNAPSHOT</version>
   </parent>
 
-  <artifactId>langdetect-response</artifactId>
+  <artifactId>twitter-response</artifactId>
   <packaging>jar</packaging>
   <name>${project.artifactId}</name>
-  <description>Language detect response</description>
+  <description>Twitter response</description>
 
   <build>
     <finalName>${project.artifactId}</finalName>

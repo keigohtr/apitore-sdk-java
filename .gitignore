@@ -30,3 +30,11 @@ buildNumber.properties
 /langdetect-response/.settings
 /langdetect-response/target
 /langdetect-response/.classpath
+/all-api-response/.project
+/all-api-response/.settings
+/all-api-response/target
+/all-api-response/.classpath
+/twitter-response/.project
+/twitter-response/.settings
+/twitter-response/target
+/twitter-response/.classpath

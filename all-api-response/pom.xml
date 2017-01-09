@@ -9,10 +9,10 @@
     <version>0.0.6-SNAPSHOT</version>
   </parent>
 
-  <artifactId>langdetect-response</artifactId>
+  <artifactId>all-api-response</artifactId>
   <packaging>jar</packaging>
   <name>${project.artifactId}</name>
-  <description>Language detect response</description>
+  <description>All API response</description>
 
   <build>
     <finalName>${project.artifactId}</finalName>
@@ -33,7 +33,37 @@
   <dependencies>
     <dependency>
       <groupId>com.apitore.banana</groupId>
-      <artifactId>base-response</artifactId>
+      <artifactId>kuromoji-response</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.apitore.banana</groupId>
+      <artifactId>word2vec-response</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.apitore.banana</groupId>
+      <artifactId>jsoup-response</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.apitore.banana</groupId>
+      <artifactId>summarize-response</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.apitore.banana</groupId>
+      <artifactId>langdetect-response</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.apitore.banana</groupId>
+      <artifactId>twitter-response</artifactId>
       <version>${project.version}</version>
     </dependency>
   </dependencies>
