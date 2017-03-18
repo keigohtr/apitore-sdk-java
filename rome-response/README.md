@@ -1,9 +1,14 @@
-# jsoup-response
-Response classes and sample code for Apitore's jsoup Web API.
-- [url2html](https://apitore.com/store/apis/details?id=12)
-- [url2text](https://apitore.com/store/apis/details?id=13)
-- [url2href](https://apitore.com/store/apis/details?id=14)
-- [url2src](https://apitore.com/store/apis/details?id=15)
+# rome-response
+Response classes and sample code for Apitore's rome Web API.
+- [rss2json](https://apitore.com/store/apis/details?id=28)
+- [2ちゃんまとめフィード](https://apitore.com/store/apis/details?id=29)
+- [ブログフィード](https://apitore.com/store/apis/details?id=30)
+- [証券情報フィード](https://apitore.com/store/apis/details?id=31)
+- [デザインフィード](https://apitore.com/store/apis/details?id=32)
+- [ゲームフィード](https://apitore.com/store/apis/details?id=33)
+- [ニュースフィード](https://apitore.com/store/apis/details?id=34)
+- [テックフィード](https://apitore.com/store/apis/details?id=35)
+- [旅行系フィード](https://apitore.com/store/apis/details?id=36)
 
 ## Requirement
 - JDK 1.8.0-102 upper
