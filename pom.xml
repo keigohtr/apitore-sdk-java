@@ -46,6 +46,7 @@
     <module>summarize-response</module>
     <module>langdetect-response</module>
     <module>twitter-response</module>
+    <module>rome-response</module>
 
     <module>all-api-response</module>
   </modules>

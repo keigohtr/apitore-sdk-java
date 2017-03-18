@@ -38,3 +38,8 @@ buildNumber.properties
 /twitter-response/.settings
 /twitter-response/target
 /twitter-response/.classpath
+/rome-response/.classpath
+/rome-response/.project
+/rome-response/.settings/org.eclipse.core.resources.prefs
+/rome-response/.settings/org.eclipse.jdt.core.prefs
+/rome-response/.settings/org.eclipse.m2e.core.prefs
