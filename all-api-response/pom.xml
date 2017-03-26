@@ -6,7 +6,7 @@
   <parent>
     <groupId>com.apitore.banana</groupId>
     <artifactId>apitore-response-parent</artifactId>
-    <version>0.0.7-SNAPSHOT</version>
+    <version>0.0.6</version>
   </parent>
 
   <artifactId>all-api-response</artifactId>
@@ -64,12 +64,6 @@
     <dependency>
       <groupId>com.apitore.banana</groupId>
       <artifactId>twitter-response</artifactId>
-      <version>${project.version}</version>
-    </dependency>
-
-    <dependency>
-      <groupId>com.apitore.banana</groupId>
-      <artifactId>rome-response</artifactId>
       <version>${project.version}</version>
     </dependency>
   </dependencies>

@@ -22,7 +22,7 @@
 
   <groupId>com.apitore.banana</groupId>
   <artifactId>apitore-response-parent</artifactId>
-  <version>0.0.7-SNAPSHOT</version>
+  <version>0.0.6</version>
   <packaging>pom</packaging>
 
   <name>${project.artifactId}</name>
@@ -46,7 +46,6 @@
     <module>summarize-response</module>
     <module>langdetect-response</module>
     <module>twitter-response</module>
-    <module>rome-response</module>
 
     <module>all-api-response</module>
   </modules>
