@@ -43,3 +43,8 @@ buildNumber.properties
 /rome-response/.settings/org.eclipse.core.resources.prefs
 /rome-response/.settings/org.eclipse.jdt.core.prefs
 /rome-response/.settings/org.eclipse.m2e.core.prefs
+/sentencepiece-response/.classpath
+/sentencepiece-response/.project
+/sentencepiece-response/.settings/org.eclipse.core.resources.prefs
+/sentencepiece-response/.settings/org.eclipse.jdt.core.prefs
+/sentencepiece-response/.settings/org.eclipse.m2e.core.prefs

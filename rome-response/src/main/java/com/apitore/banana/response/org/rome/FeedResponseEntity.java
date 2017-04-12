@@ -27,6 +27,8 @@ public class FeedResponseEntity extends BaseResponseEntity {
   private int page=1;
   @ApiModelProperty(required=true, value="Last Updated At")
   private Date lastUpdatedAt=new Date();
+  @ApiModelProperty(required=true, value="Num")
+  private int num=0;
   @ApiModelProperty(required=true, value="Entries")
   private List<FeedEntryEntity> entries=new ArrayList<>();
 
