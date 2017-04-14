@@ -6,7 +6,7 @@
   <parent>
     <groupId>com.apitore.banana</groupId>
     <artifactId>apitore-response-parent</artifactId>
-    <version>0.0.7-SNAPSHOT</version>
+    <version>0.0.7</version>
   </parent>
 
   <artifactId>rome-response</artifactId>
