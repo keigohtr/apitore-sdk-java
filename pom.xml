@@ -22,7 +22,7 @@
 
   <groupId>com.apitore.banana</groupId>
   <artifactId>apitore-response-parent</artifactId>
-  <version>0.0.7</version>
+  <version>0.0.8-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>${project.artifactId}</name>
