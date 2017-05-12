@@ -48,6 +48,7 @@
     <module>twitter-response</module>
     <module>rome-response</module>
     <module>sentencepiece-response</module>
+    <module>wordnet-response</module>
 
     <module>all-api-response</module>
   </modules>

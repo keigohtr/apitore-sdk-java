@@ -13,7 +13,7 @@ import com.apitore.banana.utils.UrlFormatter;
 /**
  * @author Keigo Hattori
  */
-public class Api37SentencePieceExample {
+public class Api37SentencePiece4WikiExample {
 
   static String ENDPOINT     = "https://api.apitore.com/api/37/sentencepiece-unigram-wiki/get";
   static String ACCESS_TOKEN = "YOUR-ACCESS-TOKEN";
