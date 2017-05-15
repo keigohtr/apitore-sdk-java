@@ -48,3 +48,7 @@ buildNumber.properties
 /sentencepiece-response/.settings/org.eclipse.core.resources.prefs
 /sentencepiece-response/.settings/org.eclipse.jdt.core.prefs
 /sentencepiece-response/.settings/org.eclipse.m2e.core.prefs
+/wordnet-response/.project
+/wordnet-response/.settings
+/wordnet-response/target
+/wordnet-response/.classpath
