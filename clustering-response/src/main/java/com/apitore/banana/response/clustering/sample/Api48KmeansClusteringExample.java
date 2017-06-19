@@ -17,6 +17,7 @@ import com.apitore.banana.response.clustering.ClusterResponseEntity;
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.google.common.collect.Sets;
 
 
 /**
@@ -35,7 +36,7 @@ public class Api48KmeansClusteringExample {
     ObjectMapper mapper = new ObjectMapper();
     ClusteringRequestEntity req = new ClusteringRequestEntity();
     req.setNum(3);
-    req.setWords(new String[]{"犬","柴犬","砂糖","塩","サッカー","野球","テニス","猫","三毛猫","胡椒"});
+    req.setWords(Sets.newHashSet("犬","柴犬","砂糖","塩","サッカー","野球","テニス","猫","三毛猫","胡椒"));
     String json = mapper.writeValueAsString(req);
     HttpHeaders headers = new HttpHeaders();
     headers.setContentType(MediaType.APPLICATION_JSON);

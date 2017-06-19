@@ -21,6 +21,6 @@ public class ClusterEntity implements Serializable {
   @ApiModelProperty(required=true, value="center")
   private double[] center;
   @ApiModelProperty(required=true, value="words")
-  private List<String> words;
+  private List<FactorEntity> words;
 
 }
