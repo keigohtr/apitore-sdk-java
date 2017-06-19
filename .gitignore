@@ -52,3 +52,8 @@ buildNumber.properties
 /wordnet-response/.settings
 /wordnet-response/target
 /wordnet-response/.classpath
+/clustering-response/.classpath
+/clustering-response/.project
+/clustering-response/.settings/org.eclipse.core.resources.prefs
+/clustering-response/.settings/org.eclipse.jdt.core.prefs
+/clustering-response/.settings/org.eclipse.m2e.core.prefs
