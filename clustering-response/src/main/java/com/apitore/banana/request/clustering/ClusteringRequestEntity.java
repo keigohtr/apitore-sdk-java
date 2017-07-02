@@ -22,5 +22,7 @@ public class ClusteringRequestEntity implements Serializable {
   Set<String> words;
   @ApiModelProperty(required=false, value = "num [max 100, default 10]")
   int num=10;
+  @ApiModelProperty(required=false, value = "iter [max 100, default 10]")
+  int iter=10;
 
 }

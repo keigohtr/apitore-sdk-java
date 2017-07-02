@@ -36,6 +36,7 @@ public class Api48KmeansClusteringExample {
     ObjectMapper mapper = new ObjectMapper();
     ClusteringRequestEntity req = new ClusteringRequestEntity();
     req.setNum(3);
+    req.setIter(10);
     req.setWords(Sets.newHashSet("犬","柴犬","砂糖","塩","サッカー","野球","テニス","猫","三毛猫","胡椒"));
     String json = mapper.writeValueAsString(req);
     HttpHeaders headers = new HttpHeaders();
