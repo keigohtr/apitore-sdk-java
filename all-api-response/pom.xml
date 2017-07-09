@@ -90,6 +90,12 @@
       <artifactId>clustering-response</artifactId>
       <version>${project.version}</version>
     </dependency>
+
+    <dependency>
+      <groupId>com.apitore.banana</groupId>
+      <artifactId>text-similarity-response</artifactId>
+      <version>${project.version}</version>
+    </dependency>
   </dependencies>
 
 </project>

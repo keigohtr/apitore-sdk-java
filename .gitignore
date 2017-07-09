@@ -57,3 +57,8 @@ buildNumber.properties
 /clustering-response/.settings/org.eclipse.core.resources.prefs
 /clustering-response/.settings/org.eclipse.jdt.core.prefs
 /clustering-response/.settings/org.eclipse.m2e.core.prefs
+/text-similarity-response/.classpath
+/text-similarity-response/.project
+/text-similarity-response/.settings/org.eclipse.core.resources.prefs
+/text-similarity-response/.settings/org.eclipse.jdt.core.prefs
+/text-similarity-response/.settings/org.eclipse.m2e.core.prefs

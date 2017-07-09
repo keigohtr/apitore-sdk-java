@@ -50,6 +50,7 @@
     <module>sentencepiece-response</module>
     <module>wordnet-response</module>
     <module>clustering-response</module>
+    <module>text-similarity-response</module>
 
     <module>all-api-response</module>
   </modules>
